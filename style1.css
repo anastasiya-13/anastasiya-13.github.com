@@ -1,0 +1,41 @@
+body{
+  background-image:url(https://1.bp.blogspot.com/-XsBwGiSIVoQ/XKWXqUOjgSI/AAAAAAABJfA/_4t6-RaIQ2gI5Cdoaxf58oLCQIUxlYGpQCLcBGAs/w1920-h1080-p-nu/decoration-flatlay-green-succulent-plants-on-pots.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family:arial;
+  font-size: 18px;
+  font-weight:normal;
+  padding:18px;
+  margin: 18px;
+}
+h1{
+  font-size: 39px;
+  font-family:URW Chancery L ;
+  font-style: italic;
+  font-weight: bold;
+  color: #6B9F54;
+}
+.box{
+  background-color: #98AA5E;
+  color: #FAFAFA;
+  padding:10px;
+  margin: 10px;
+  height:auto;
+  width: 1000px;
+  position: relative;
+}
+#maintext{
+  background-color: #B5C792;
+  color: #476133;
+  height:auto;
+  width: 1000px;
+  padding:10px;
+  margin: 10px;
+}
+p[color]{
+  color: #FAFAFA;
+}
+p[list]{
+  text-align: left;
+}
