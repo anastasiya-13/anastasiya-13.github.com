@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Задание 4</title>
+     <link rel="stylesheet" href="css/style3.css">
+  </head>
+  <body>
+     <h1>Дан следующий текст: «Every <i>man</i> in the world! Every <i>woman</i> on earth!»</h1>
+      <h2>Замените слова «man» и «woman» на «person» при помощи методов регулярных выражений replace и compile.</h2> 
+     <script>
+           var str="Every man in the world! Every woman on earth!";
+           document.write(str+"<br>");
+           var patt=/man/g;
+           var str2=str.replace(patt,"person");
+           patt=/(wo)?man/g;
+           patt.compile(patt);
+           str2=str.replace(patt,"person");
+           document.write(str2);
+       </script>
+  </body>
+</html>
