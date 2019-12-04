@@ -1,0 +1,19 @@
+body{
+  background-color:#FF99CC;
+  color:#0033FF;
+  text-align: center;
+  font-family:monospace;
+  font-size: 37px;
+  font-weight: normal;
+  padding: 20px;
+  margin: 20px;
+}
+h1{
+  color: #660033;
+}
+h2{
+  color: #663399;
+}
+p[color]{
+  color: #990033;
+}
