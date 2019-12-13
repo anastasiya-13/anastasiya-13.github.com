@@ -3,19 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Задание 1</title>
-     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/style211.css">
+     <script language="JavaScript" type="text/JavaScript">
+     function hello() {
+     var id;
+     id=window.open("","example","width=700, height=280");
+     id.focus();
+     id.document.open();
+     id.document.write("<h1><form color='olive' face='Lucida Console' size='5'>Приветствую :) Если у вас какая-то ошибка с использованием данного ресурса, пожалуйста, перейдите по ссылке внизу сайта на наш дополнительный ресурс и свяжитесь с нами, в чем заключается ваша ошибка. Хорошего вам дня!</form></h1>");
+     id.document.write("<input type='button' value='Закрыть окно' onclick='window.close();'> </form>");
+     id.document.close();
+     }
+     </script>
   </head>
   <body>
-    <center>
     <div class="box">
-     <h1>Давайте посчитаем с вами яблочки:)</h1>
-      <script type="text/javascript">
-       for(var i=3; i<=5; i++) {
-         alert("На столе "+i+" яблочка!")
-        }
-     </script>
-       <h1>Мы с Вами молодцы,внимательно посчитали яблочки :) </h1>
-         </div>
-    </center>     
+      <center>
+      <h1>Натальная карта</h1>
+        <p>Натальная карта - это ваш индивидуальный гороскоп рождения. Который строится на время и место рождения человека. Такой гороскоп описывает кармическую судьбу человека, а также склонности и возможности определенных обстоятельств вашего жизненного пути. При составлении натальной карты онлайн, определяется ваша космограмма на которую наносятся положения планет в домах и знаках зодиака на время вашего рождения. Далее по этим данным делается расшифровка гороскопа.</p>
+         <p>Натальная карта выглядит следующим образом:</p>
+          <img src="нк.jpg" width="450" height="auto" alt="Натальная карта">
+          <p>Для того, чтобы начать, нажмите пожалуйста "Начать" </p>
+           <p>Если у вас какие-то проблемы, пожалуйста, нажмите "Помощь"</p>
+    <form name="f2">
+      <input type="button" value="Начать!" onclick="window.alert('Пожалуйста, нажмите еще раз'); "><br>
+      <br>
+      <input type="button" onclick="hello();" value="Помощь"/><br>
+  </form>
+     <a href="file:///F:/Web%202%20%D0%BA%D1%83%D1%80%D1%81/%D0%9B%D0%B0%D0%B1%D0%B0%2021/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202.html">Техническая поддержка</a>
+    </center>
+   </div>
   </body>
 </html>

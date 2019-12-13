@@ -3,16 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Задание 2</title>
-     <link rel="stylesheet" href="css/style1.css">
-      <script type="text/javascript">
-         function count_cherry(){
-           for(var i=10; i<=16; i++){
-            alert("Проверка своего шестого чувства. На этой картинке "+i+" чёрных вишенок?")
-          }
-        }
+     <link rel="stylesheet" href="css/style212.css">
+     <script language="JavaScript" type="text/JavaScript">
+     function game() {
+     var id;
+     id=window.open("","example","width=700, height=280");
+     id.focus();
+     id.document.open();
+     id.document.write("<h1><form color='oliver' face='Lucida Console' size='7'>Добрый день пользователь! К сожалению, на данный момент эта функция не доступна. Проиносим свои извинения за неудобства!</form></h1>");
+     id.document.write("<input type='button' value='Закрыть окно' onclick='window.close();'> </form>");
+     id.document.close();
+     }
      </script>
-</head>
+  </head>
   <body>
-     <input type="button" onclick="count_cherry()" value="Хотите проверить свою интуицию?"/>
+    <div class="box">
+    <h1>Техническая поддержка сайта "Натальная карта"</h1>
+     <h2>Лучший способ избавиться от проблемы — решить ее.<br>
+       <i>Брендан Франсис</i></h2>
+    <form name="help">
+      <input type="button" onclick="game();" value="Помощь"/><br>
+    </div>
+  </form>
   </body>
 </html>
