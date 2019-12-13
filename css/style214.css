@@ -1,0 +1,28 @@
+body{
+  background-image: url(https://images2.alphacoders.com/101/thumb-1920-1015182.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family:monospace;
+  font-size: 19px;
+  font-weight: normal;
+  padding: 20px;
+  margin: 20px;
+}
+.box{
+position: absolute;
+left: 450px;
+background-color:#214965;
+border: 3px solid #02223A;
+color:white;
+text-align: left;
+padding: 20px;
+margin: 20px;
+width: 1000px;
+height: auto;
+}
+p[color]{
+  text-align: center;
+  font-weight: bolder;
+  color:#02223A;
+}

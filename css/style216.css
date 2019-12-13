@@ -1,0 +1,29 @@
+body{
+  background-image: url(https://look.com.ua/pic/201307/1920x1080/look.com.ua-72450.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: left;
+  width: 550px;
+  font-family:monospace;
+  font-size: 19px;
+  font-weight: normal;
+  color: #333333;
+  padding: 20px;
+  margin: 20px;
+}
+.box{
+position: absolute;
+left: 25px;
+border: 5px solid #424D40 ;
+text-align: left;
+padding: 20px;
+margin: 20px;
+width: 1000px;
+height: auto;
+}
+h1{
+color:#330000;
+font-style: italic;
+font-size: 65px;
+text-align: center;
+}

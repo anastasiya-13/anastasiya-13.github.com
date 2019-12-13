@@ -1,0 +1,21 @@
+body{
+  background-image: url(https://img2.akspic.ru/image/116554-anime-sumrak-pejzazhnaya_zhivopis-zhivopis-gorizont-1920x1080.jpg);
+  text-align: center;
+  font-family:monospace;
+  font-size: 19px;
+  font-weight: normal;
+  padding: 20px;
+  margin: 20px;
+}
+.box{
+position: absolute;
+left: 450px;
+background-color:white;
+border: 3px solid #B46EB9;
+color:#003EC4;
+text-align: left;
+padding: 20px;
+margin: 20px;
+width: 800px;
+height: auto;
+}

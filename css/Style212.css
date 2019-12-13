@@ -1,0 +1,22 @@
+body{
+  background-image: url(https://www.ubackground.com/_ph/4/354482922.jpg);
+  text-align: center;
+  font-family:monospace;
+  font-size: 19px;
+  font-weight: normal;
+  padding: 20px;
+  margin: 20px;
+}
+.box{
+position: absolute;
+top: 300px;
+left: 450px;
+background-color:#DAA3D9;
+border: 3px solid #1B3186;
+color:#404383;
+text-align: left;
+padding: 20px;
+margin: 20px;
+width: 1000px;
+height: auto;
+}
