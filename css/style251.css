@@ -1,0 +1,27 @@
+Body{
+background-image: url(https://i.pinimg.com/originals/e4/36/a2/e436a26985ae4c7d48ac22190a106090.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+text-align: center;
+font-family:monospace;
+font-size: 19px;
+font-weight: normal;
+padding: 20px;
+margin: 20px;
+}
+h1{
+  font-size: 45px;
+  color: #5092A5;
+}
+.box{
+position: absolute;
+left: 500px;
+background-color:#9FC9C5;
+border: 3px solid #154E68;
+color:#0E1F1F;
+text-align: left;
+padding: 20px;
+margin: 20px;
+width: 800px;
+height: auto;
+}
