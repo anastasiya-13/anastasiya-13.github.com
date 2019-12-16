@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Задание 1</title>
+     <link rel="stylesheet" href="css/style251.css">
+  </head>
+  <body>
+   <div class="box">
+    <h1>Существующие браузеры</h1>
+     <ol>
+       <li>Google Chrome. <br>Это браузер, разрабатываемый компанией Google на основе свободного браузера Chromium и движка Blink[8] (до апреля 2013 года использовался WebKit). Первая публичная бета-версия для Windows вышла 2 сентября 2008 года, а первая стабильная — 11 декабря 2008 года. По данным StatCounter, Chrome используют около 300 миллионов интернет-пользователей, что делает его самым популярным браузером в мире. <br>
+        <img src="gc.jpg" height="350" width="350" alt="Google Chrom"> </li>
+       <li>Apple Safari. <br>Это веб-браузер, разработанный корпорацией Apple и входящий в состав macOS и iOS. По состоянию на февраль 2019, занимает второе место по числу пользователей в мире.<br>
+        <img src="s.jpg" height="350" width="350" alt="Apple Safari"></li>
+      <li>Opera. <br>Это веб-браузер и пакет прикладных программ для работы в Интернете, выпускаемый компанией Opera Software. Разработан в 1994 году группой исследователей из норвежской компании Telenor. С 1995 года — продукт компании Opera Software, образованной авторами первой версии браузера. <br>
+        <img src="o.jpg" height="350" width="350" alt="Opera"></li>
+       <li>Mozilla Firefox. <br>Это свободный браузер на движке Gecko, разработкой и распространением которого занимается Mozilla Corporation. Второй по популярности браузер в мире и первый среди свободного ПО. Браузер имеет особенный успех в некоторых странах, в частности, в Германии это самый популярный браузер с долей 34,27 % на июнь 2016 года. В России Firefox занимает третье место по популярности среди браузеров для ПК с долей 8,74 % пользователей на декабрь 2018 года, немного опережая Opera. <br> <img src="f.jpg" height="350" width="350" alt="Mozilla Firefox"></li>
+       <li>Microsoft Internet Explorer. <br>программа-браузер, которую разрабатывала корпорация Microsoft с 1995 по 2015 год. Входила в комплект операционных систем семейства Windows вплоть до Windows 10, где её сменил Microsoft Edge. Согласно разным методам подсчёта, доля Internet Explorer среди пользователей варьировала между 24,64 % и 58,15 % (на январь 2017 года).<br>
+         <img src="e.jpg" height="350" width="350" alt="Microsoft Internet Explorer"></li>
+     </ol>
+       <p> В нашем случае, браузер, которым мы пользуемся</p>
+     <script type="text/javascript">
+     var browser, uAgent = navigator.userAgent;
+
+if(uAgent.indexOf("Chrome") > -1) {
+  browser = "Google Chrome";
+} else if (uAgent.indexOf("Safari") > -1) {
+  browser = "Apple Safari";
+} else if (uAgent.indexOf("Opera") > -1) {
+  browser = "Opera";
+} else if (uAgent.indexOf("Firefox") > -1) {
+  browser = "Mozilla Firefox";
+} else if (uAgent.indexOf("MSIE") > -1) {
+  browser = "Microsoft Internet Explorer";
+}
+document.write(browser);
+     </script>
+     </div>
+  </body>
+</html>
