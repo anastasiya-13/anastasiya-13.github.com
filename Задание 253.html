@@ -15,7 +15,7 @@
      }
      else
      {
-     document.f.target = "bottom";
+     document.f.target = "buttom";
      self.top.frames[1].document.open();
      self.top.frames[1].document.close();
      }
@@ -30,16 +30,14 @@
      }
      else
      {
-     window.open("buttom.html", "bottom"); self.top.frames[1].document.open(); self.top.frames[1].document.close();
+     window.open("buttom.html", "buttom"); self.top.frames[1].document.open(); self.top.frames[1].document.close();
      }
      return false;
      }
      </script>
   </head>
-  <body>
-<frameset rows="25%, *">
-<frame name="top" src="top.html">
-<frame name="bottom" src="buttom.html">
+<frameset rows="25%, 75%">
+<frame src="top.html">
+<frame  src="button.html">
 </frameset>
-  </body>
 </html>
