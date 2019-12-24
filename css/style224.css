@@ -1,0 +1,24 @@
+body{
+  background-image: url(http://wallpapers-images.ru/1920x1080/new-year-wallpaper/wallpapers/new-year-wallpapers-1920x1080-00019.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family:monospace;
+  font-size: 19px;
+  padding: 20px;
+  margin: 20px;
+}
+.box{
+position: absolute;
+left: 950px;
+top: 300px;
+background-color:#0077C5;
+color:white;
+border: 3px solid white;
+text-align: left;
+font-weight:bold;
+padding: 20px;
+margin: 20px;
+width: 700px;
+height: auto;
+}

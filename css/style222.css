@@ -1,0 +1,23 @@
+body{
+  background-image: url(https://images.wallpaperscraft.ru/image/novogodnij_shar_elochnaya_igrushka_ukrashenie_113334_1920x1080.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family:monospace;
+  font-size: 19px;
+  padding: 20px;
+  margin: 20px;
+}
+.box{
+position: absolute;
+left: 150px;
+top: 300px;
+background-color:white;
+color:black;
+text-align: left;
+font-weight:bold;
+padding: 20px;
+margin: 20px;
+width: 700px;
+height: auto;
+}
