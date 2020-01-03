@@ -1,0 +1,27 @@
+body{
+  background-image: url(https://image.winudf.com/v2/image1/Y29tLnNpbnllZS5iYWJ5YnVzLmhhcHB5Y291bnRpbmdfc2NyZWVuX3J1LVJVXzFfMTU1NjUzNTQ5N18wMzM/screen-1.jpg?fakeurl=1&type=.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align:left;
+  font-family:arial;
+  font-size: 19px;
+  font-weight: normal;
+  padding: 20px;
+  margin: 20px;
+  }
+  h1{
+    font-size: 35px;
+    text-align: center;
+    color: #FF6600;
+  }
+  .box{
+  position: absolute;
+  left: 100px;
+  background-color:white;
+  color:;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+  width: 600px;
+  height: auto;
+  }
