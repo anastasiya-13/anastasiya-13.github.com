@@ -1,0 +1,36 @@
+body{
+  background-image: url(https://s1.1zoom.ru/b5050/964/Christmas_Fir_Christmas_502423_1920x1080.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align:left;
+  font-family:monospace;
+  font-size: 19px;
+  font-weight: normal;
+  padding: 20px;
+  margin: 20px;
+  }
+  h1{
+    font-size: 35px;
+    text-align: center;
+    color: #FF6600;
+  }
+  h2{
+    color: green;
+    text-align: center;
+  }
+  p[color]{
+    color: red;
+    font-style: italic;
+  }
+  .box{
+  position: absolute;
+  left: 920px;
+  top: 150px;
+  background-color:white;
+  color:#000066;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+  width: 600px;
+  height: auto;
+  }
