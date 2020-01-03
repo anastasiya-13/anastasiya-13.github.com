@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+     <link rel="stylesheet" href="css/style281.css">
+  </head>
+  <body>
+    <div class="box">
+    <h1>Давайте разберемся с вами в методах join(), reverse(), sort().</h1>
+     <h2>Медод reverse()</h2>
+     <p>Работу данного метода можно увидеть на примере снизу</p>
+     <button onclick="myFunction()">Пример1</button>
+       <p id="demo"></p>
+       <script>
+        var fruits = ["Banana", "Orange", "Apple", "Mango","Cherry", "Strawberry"];
+        document.getElementById("demo").innerHTML = fruits;
+        function myFunction() {
+        fruits.reverse();
+        document.getElementById("demo").innerHTML = fruits;}
+       </script>
+       <h2>Медод sort()</h2>
+       <p>Работу данного метода можно увидеть на примере снизу</p>
+       <button onclick="myFunction1()">Пример2</button>
+        <p id="demo"></p>
+         <script>
+        var fruits = ["Banana", "Orange", "Apple", "Mango","Cherry", "Strawberry"];
+          document.getElementById("demo").innerHTML = fruits;
+        function myFunction1() {
+         fruits.sort();
+         document.getElementById("demo").innerHTML = fruits;}
+         </script>
+         <h2>Медод join()</h2>
+         <p>Работу данного метода можно увидеть на примере снизу</p>
+         <button onclick="myFunction2()">Пример 3</button>
+         <p id="demo"></p>
+        <script>
+        function myFunction2() {
+        var fruits = ["Banana", "Orange", "Apple", "Mango","Cherry", "Strawberry"];
+        var x = document.getElementById("demo");
+        x.innerHTML = fruits.join();}
+        </script>
+      </div>
+  </body>
+</html>
