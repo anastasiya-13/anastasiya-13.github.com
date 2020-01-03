@@ -1,0 +1,40 @@
+body{
+  background-image: url(https://avatars.mds.yandex.net/get-pdb/33827/1a5e6b08-a4ff-478b-88e8-1a8070392eb2/orig);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align:left;
+  font-family:arial;
+  font-size: 21px;
+  font-weight: normal;
+  padding: 20px;
+  margin: 20px;
+  }
+  h1{
+    font-size: 35px;
+    text-align: center;
+    color:#003531;
+  }
+  h2{
+    color:#336140;
+    text-align: center;
+  }
+  h3{
+    color:#333333;
+    text-align: center;
+  }
+  p[color]{
+    font-style: italic;
+    color:#669966;
+    font-size: 23px;
+  }
+  .box{
+  position: absolute;
+  left: 250px;
+  background-color:white;
+  color:;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  width: 1400px;
+  height: auto;
+  }
